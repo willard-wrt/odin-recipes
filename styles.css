@@ -1,4 +1,4 @@
-.hp, .home {
+.hp, .home, a  {
   font-family: 'Nerko One', cursive;
   
 }
@@ -8,7 +8,7 @@
 }
 
 .hp {
-color: rgb(247, 85, 85);    
+  color: rgb(247, 85, 85);    
   font-size: 36px;
 }
 
@@ -25,4 +25,21 @@ color: rgb(247, 85, 85);
 
 .link:hover {
   color: black;
+}
+
+.title-wrap {
+ display: flex;
+ flex-direction: column;
+ margin-left: 35px;  
+}
+
+.title-main {
+ display: flex;
+ align-items: flex-end;
+
+}
+
+p {
+ margin: 0px;  
+ text-align: center;
 }
